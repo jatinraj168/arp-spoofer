@@ -21,3 +21,12 @@ A Python script to demonstrate ARP spoofing using the **Scapy** library. This sc
 Install Scapy using pip:
 ```bash
 pip install scapy
+
+
+Run the script with root privileges:
+
+bash
+Copy code
+sudo python3 arp_spoof.py <victim_ip> <router_ip>
+Replace <victim_ip> with the IP address of the target device.
+Replace <router_ip> with the IP address of the router.
