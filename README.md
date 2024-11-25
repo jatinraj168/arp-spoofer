@@ -27,6 +27,6 @@ Run the script with root privileges:
 
 ```bash
 sudo python3 arp_spoof.py <victim_ip> <router_ip>
+```
 Replace <victim_ip> with the IP address of the target device.
 Replace <router_ip> with the IP address of the router.
-```
